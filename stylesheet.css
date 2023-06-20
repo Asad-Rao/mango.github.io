@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pagewidth{
+    max-width: 1700px;
+    margin: auto;
+}
+.section_div
+{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.background_image{
+    background-image: url("asad.png");
+    background-repeat: no-repeat no-repeat;
+background-size: cover;
+    background-position: center center;
+    
+}
+.all_text_div
+{
+width: fit-content;
+    margin-left: 29px;
+word-wrap: break-word;
+}
+.mango_heading
+{
+
+padding-top: 40px;
+padding-bottom: 36px;
+font-size: 4rem;
+font-family: Caveat Brush, cursive;   
+font-weight: 100;
+color:#00bd57;
+}
+.mango_sub_heading
+{
+font-family: GlacialIndifference-Bold;
+color: #246f50;
+}
+.ul_list
+{
+margin-top: 16px;
+font-size: 20px;
+margin-bottom: 90px;
+
+}
+.order_text_div
+{
+    font-weight: bold;
+    padding-bottom: 45px;
+    color: #647B29;
+    font-size: 30px;
+    font-family:BebasNeueLight;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 582px) and (max-width: 812px) {
+    /* CSS rules for the specified screen width range */
+        .order_text_div {
+        width: 82%;
+        }
+        
+    
+  }
+  @media screen and (min-width: 578px) and (max-width: 581px) {
+    /* CSS rules for the specified screen width range */
+        .order_text_div {
+        width: 55%;
+        }
+  }
+
+  @media screen and (min-width: 568px) and (max-width: 577px) {
+    /* CSS rules for the specified screen width range */
+        .order_text_div {
+        width: 54%;
+        }
+  }
+
+  @media screen and (min-width: 484px) and (max-width: 567px) {
+    /* CSS rules for the specified screen width range */
+        .order_text_div {
+        width: 45%;
+        }
+  }
+
+  @media screen and (min-width: 456px) and (max-width: 484px) {
+        .order_text_div {
+        width: 35%;
+        }
+  }
+
+
+
+  @media screen and (min-width: 400px) and (max-width: 465px) {
+    .order_text_div {
+    width: 30%;
+    }}
+
+
+    @media screen and (min-width: 396px) and (max-width: 399px) {
+        .order_text_div {
+        width: 30%;
+        }}
+
+
+        @media screen and (min-width:350px) and (max-width: 396px) {
+            .order_text_div {
+            width: 25%;
+            }}
+
+
+
+
+  @media screen and (min-width: 404px) and (max-width: 576px) {
+  .mango_sub_heading
+        {
+            width:72%;
+        }
+    }
