@@ -10,14 +10,14 @@
 }
 .section_div
 {
-    max-width: 1300px;
+    max-width: 1080px;
     margin: auto;
 }
 
 .background_image{
     background-image: url("asad.png");
     background-repeat: no-repeat no-repeat;
-background-size: 100% 100%;
+background-size: cover;
     background-position: center center;
     
 }
@@ -136,4 +136,5 @@ margin-bottom: 90px;
 
 
   @media screen and (min-width: 404px) and (max-width: 576px) {
-      }
+  
+    }
