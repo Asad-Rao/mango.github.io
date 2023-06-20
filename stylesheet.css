@@ -59,6 +59,25 @@ margin-bottom: 90px;
     letter-spacing: 0.5px;
 }
 
+@media screen and (min-width: 398px) and (max-width: 767px) {
+    /* CSS rules for the specified screen width range */
+        .mango_sub_heading {
+        width: 52%;
+        }
+        
+    
+  }
+  @media screen and (min-width: 320px) and (max-width: 398px) {
+    /* CSS rules for the specified screen width range */
+        .mango_sub_heading {
+        width: 74%;
+        }
+        
+    
+  }
+
+
+
 @media screen and (min-width: 582px) and (max-width: 812px) {
     /* CSS rules for the specified screen width range */
         .order_text_div {
@@ -117,8 +136,5 @@ margin-bottom: 90px;
 
 
   @media screen and (min-width: 404px) and (max-width: 576px) {
-  .mango_sub_heading
-        {
-            width:72%;
-        }
+  
     }
