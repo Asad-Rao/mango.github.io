@@ -13,27 +13,25 @@
         max-width: 1080px;
         margin: auto;
     }  
-/* @media screen and (min-width: 776px) and (max-width: 1320px) {
     .section_div
     {
-        max-width: 633px;
+        max-width: 1080px;
+        margin: auto;
+    }  
+@media screen and (min-width: 689px) and (max-width: 767px) {
+    .section_div
+    {
+        max-width: 720px;
         margin: auto;
     }  
 }
-@media screen and (min-width: 658px) and (max-width: 775px) {
-    .section_div
-    {
-        max-width: 653px;
-        margin: auto;
-    }  
-} */
 
 
 
 .background_image{
     background-image: url("asad.png");
     background-repeat: no-repeat no-repeat;
-background-size: cover;
+background-size: contain;
     background-position: center center;
     
 }
