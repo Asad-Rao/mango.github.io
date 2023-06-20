@@ -9,15 +9,31 @@
     margin: auto;
 }
 .section_div
-{
-    max-width: 1080px;
-    margin: auto;
+    {
+        max-width: 1080px;
+        margin: auto;
+    }  
+/* @media screen and (min-width: 776px) and (max-width: 1320px) {
+    .section_div
+    {
+        max-width: 633px;
+        margin: auto;
+    }  
 }
+@media screen and (min-width: 658px) and (max-width: 775px) {
+    .section_div
+    {
+        max-width: 653px;
+        margin: auto;
+    }  
+} */
+
+
 
 .background_image{
     background-image: url("asad.png");
     background-repeat: no-repeat no-repeat;
-background-size: 100% 100%;
+background-size: cover;
     background-position: center center;
     
 }
@@ -62,14 +78,12 @@ margin-bottom: 90px;
 
 
 @media screen and (min-width: 424px) and (max-width: 767px) {
-    /* CSS rules for the specified screen width range */
         .mango_sub_heading {
         width: 59%;
         }
     }
 
     @media screen and (min-width: 300px) and (max-width: 423px) {
-        /* CSS rules for the specified screen width range */
             .mango_sub_heading {
          width: 80%;
             }
