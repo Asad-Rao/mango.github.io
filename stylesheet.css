@@ -15,23 +15,17 @@
     }  
     .section_div
     {
-        max-width: 1080px;
+        max-width: 1300px;
         margin: auto;
     }  
-@media screen and (min-width: 689px) and (max-width: 767px) {
-    .section_div
-    {
-        max-width: 720px;
-        margin: auto;
-    }  
-}
+
 
 
 
 .background_image{
     background-image: url("asad.png");
     background-repeat: no-repeat no-repeat;
-background-size: contain;
+background-size: cover;
     background-position: center center;
     
 }
@@ -61,7 +55,7 @@ font-size: 23px;
 {
 margin-top: 16px;
 font-size: 20px;
-margin-bottom: 90px;
+margin-bottom: 45px;
 
 }
 .order_text_div
@@ -121,7 +115,7 @@ margin-bottom: 90px;
 
   @media screen and (min-width: 456px) and (max-width: 484px) {
         .order_text_div {
-        width: 44%;
+        width: 43%;
         }
   }
 
